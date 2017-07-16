@@ -1,0 +1,15 @@
+Steps
+
+1.	Create simple HTML pages.
+2.	Include Header, footer and functions files.
+3.	Create a database connection in a separate file and include it in the manage_content.php .
+	i.		We require 4 values to make the database connection - 
+			a.	server_name
+			b.	username
+			c.	password
+			d.	database_name
+	ii.		Create a database connection and check if the connection was successfully built.
+4.	Now, write a query and check if you get the results back.
+5.	Make a function that queries for all the subjects in the database. This is refactoring.
+6.	Similarly, create a function that queries for all the pages under a particular subject.
+7.	Next, start working on the functionality of the Navigation. Add links to the text.
