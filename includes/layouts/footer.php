@@ -1,5 +1,5 @@
 		<div id="footer">
-			Copyright 2017, Widget Corp
+			Copyright <?php echo date("Y") ?>, Widget Corp
 		</div>
 	</body>
 </html>

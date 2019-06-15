@@ -1,6 +1,8 @@
 <?php 
 	session_start();
 
+	global $highlight;
+
 	function message() {
 		if(isset($_SESSION['message'])) {
 			$output  = "<div class='message'>";

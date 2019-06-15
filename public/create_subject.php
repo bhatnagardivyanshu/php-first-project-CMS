@@ -37,15 +37,6 @@
 			redirect_to("new_subject.php");
 		}
 
-		//Escape all strings
-		$menu_name = mysqli_real_escape_string($connection, $menu_name);
-		$query  = "INSERT INTO subjects ";
-		$query .= "(menu_name, position, visible) ";
-		$query .= "VALUES ('{menu_name}, {$position}, {visible}')";
-
-		$result = mysqli_query($connection, $query);
-		confirm_query($result, $query);
-
 	}	
 	else {
 		// This is probably a GET request.
